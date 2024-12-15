@@ -72,6 +72,7 @@ export default function Footer() {
         </div>
       </div>
 
+      {/* Copyright */}
       <p className="mt-20 px-2 text-center text-sm opacity-75">
         {t('copyright', {
           year: new Date().getFullYear(),
